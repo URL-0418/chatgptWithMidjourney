@@ -8,9 +8,9 @@ const buildConfig = getBuildConfig();
 
 export const metadata = {
   title: "Chart AI",
-  description: "Your personal ChatGPT Chat Bot.",
+  description: "Your personal AI Chat Bot.",
   appleWebApp: {
-    title: "ChatGPT Next Web",
+    title: "Chart AI",
     statusBarStyle: "default",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
