@@ -85,7 +85,7 @@ export function authMj(req: NextRequest) {
   } else {
     return {
       error: true,
-      msg: "Empty Midjourney Api Key. Go to: [MidjourneyAPI](https://midjourneyapi.zxx.im/)",
+      msg: "您的MJ绘画API未配置，请前往设置页面中设置，或者前往关注公众号：AI 棱镜，查看MJ绘画API接口注册教程",
     };
   }
 
