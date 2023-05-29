@@ -145,7 +145,7 @@ const de: LocaleType = {
       Placeholder: "OpenAI API-Schlüssel",
     },
     MjKey: {
-      Title: "MJ API-Schlüssel",
+      Title: "MJ. API-Schlüssel",
       SubTitle: "Schnelle Konfiguration des MJ API-Schlüssels",
       Placeholder: "Midjourney API-Schlüssel",
     },
