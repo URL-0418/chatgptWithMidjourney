@@ -89,8 +89,14 @@ const cn = {
       Title: "字体大小",
       SubTitle: "聊天内容的字体大小",
     },
-
-
+    Update: {
+      Version: (x: string) => `当前版本：${x}`,
+      IsLatest: "已是最新版本",
+      CheckUpdate: "检查更新",
+      IsChecking: "正在检查更新...",
+      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      GoToUpdate: "前往更新",
+    },
     SendKey: "发送键",
     Theme: "主题",
     TightBorder: "无边框模式",
@@ -192,7 +198,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello:"前往微信公众号：**[AI棱镜](https://mp.weixin.qq.com/s/G359DUHMr6m2eJ9MyX4LIg)**回复**KEY**获取免费key\n**提问：**获取到的key怎么使用？\n**回答：**你可以在关注公众号后找到免费版的使用教程哦！\n欢迎关注公众号：**AI棱镜**加入社群，让我们一起探讨更多AIGC的新玩法"
+    BotHello:"前往微信公众号：**[AI棱镜](https://mp.weixin.qq.com/s/G359DUHMr6m2eJ9MyX4LIg)**回复**KEY**获取免费key\n**提问：**获取到的key怎么使用？\n**回答：**你可以在关注公众号后找到免费版的使用教程哦！\n欢迎关注公众号：**AI棱镜**加入社群，让我们一起探讨更多AIGC的新玩法",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
